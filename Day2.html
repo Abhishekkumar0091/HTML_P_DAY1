@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>11.What are Attributes in html</h1>
+    <h3>Answer</h3>
+    <p>
+      In HTML, attributes are special words used inside the opening tag of an
+      element to provide additional information about that element.
+    </p>
+
+    1.id – Gives a unique identifier to an element.
+    <br />
+    2.class – Groups elements together for styling with CSS or scripting with
+    JavaScript
+    <br />
+    3.src – Specifies the source of an image, video, or other media.
+    <br />
+    4.alt – Alternative text for images (shown if the image can’t load).
+
+    <h1>12.What is dns</h1>
+    <h3>Answer</h3>
+    <p>
+      DNS stands for Domain Name System. <br />
+      It is like the phonebook of the internet.
+    </p>
+    <h4>How DNS Works (Step by Step):</h4>
+    <p>
+      You type www.example.com in your browser. <br />
+
+      Your computer asks the DNS server: "What is the IP address of this
+      domain?"<br />
+
+      The DNS server looks it up and replies with an IP address (e.g.,
+      93.184.216.34). <br />
+
+      Your browser then connects to that IP address and loads the website.
+    </p>
+
+    <h1>13. what is ip address</h1>
+    <h3>Answer</h3>
+    <p>
+      IP (Internet Protocol) address is a unique number assigned to every device
+      (computer, phone, server, etc.) on a network. It works like a home address
+      for devices so they can send and receive data.
+    </p>
+    <p>
+      Types of IP addresses: <br />
+
+      1.IPv4 – 32-bit, looks like: <br />
+      192.168.1.1 <br />
+      2.IPv6 – 128-bit, created because IPv4 addresses are running out: <br />
+      2400:cb00:2048:1::c629:d7a2
+    </p>
+
+    <h1>14.What is Localhost?</h1>
+    <h3>Answer</h3>
+    <p>
+      Localhost means “this computer” or “loopback address”. <br />
+      It always points to the IP address 127.0.0.1 (for IPv4) or ::1 (for IPv6).
+    </p>
+
+    <h1>15.HTML5 vs HTML4</h1>
+    <h3>Answer</h3>
+    <table border="2" width="100%">
+      <caption>
+        HTML5 vs HTML4
+      </caption>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>HTML4</th>
+          <th>HTML5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Year Introduced</td>
+          <td>1997</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>DOCTYPE</td>
+          <td>Long & complex</td>
+          <td>Simple (!DOCTYPE html>)</td>
+        </tr>
+        <tr>
+          <td>Structure</td>
+          <td>div> everywhere</td>
+          <td>Semantic tags (header, etc )</td>
+        </tr>
+
+        <tr>
+          <td>Forms</td>
+          <td>Basic inputs</td>
+          <td>Many new input types</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>16.what are semantic tags</h1>
+    <h3>Answer</h3>
+    <p>
+      Semantic tags are HTML5 elements that clearly describe their meaning and
+      purpose in the webpage, <br />
+      both for developers and browsers/search engines (SEO).
+    </p>
+    <h1>17.what are the new features in HTML5?</h1>
+    <h3>Answer</h3>
+    <h4>New Features in HTML5</h4>
+    <ul>
+      <li>Simplified Doctype (DOCTYPE html)</li>
+      <li>New Semantic Elements (header,foter,main,article,section,nev)</li>
+      <li>Multimedia Support(audio,video)</li>
+      <li>Graphics & Animation(canvas-foe 2d drawing,games,charts)</li>
+    </ul>
+    <h1>18.Difference between div and span</h1>
+    <h3>Answer</h3>
+    <table border="2" width="100%">
+      <caption>
+        Difference between div and span
+      </caption>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>div</th>
+          <th>span</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Type of Element</td>
+          <td>Block-level element</td>
+          <td>Inline element</td>
+        </tr>
+        <tr>
+          <td>Layout Behavior</td>
+          <td>Starts on a new line and takes full width by default</td>
+          <td>Stays in the same line, only takes as much width as needed</td>
+        </tr>
+        <tr>
+          <td>Use Case</td>
+          <td>
+            Used to group larger chunks of content (sections, containers,
+            layouts)
+          </td>
+          <td>
+            Used to style or highlight small parts of text or inline content
+          </td>
+        </tr>
+        <tr>
+          <td>Styling</td>
+          <td>Suitable for layout and structure with CSS</td>
+          <td>
+            Suitable for styling individual words, phrases, or inline content
+          </td>
+        </tr>
+        <tr>
+          <td>Example Width/Height</td>
+          <td>Can have width, height, margins, paddings applied easily</td>
+          <td>Can have styles but width/height behave differently (inline)</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>19.Difference between class and IDs</h1>
+    <h3>Answer</h3>
+    <table border="2" width="100%">
+      <caption>
+        Difference Between Class and ID in HTML
+      </caption>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Class</th>
+          <th>ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Uniqueness</td>
+          <td>Can be used on multiple elements</td>
+          <td>Must be unique (only one element should have that ID)</td>
+        </tr>
+        <tr>
+          <td>Reusability</td>
+          <td>Reusable across many elements</td>
+          <td>Not reusable, meant for one element</td>
+        </tr>
+        <tr>
+          <td>Selector in CSS</td>
+          <td>. (dot)</td>
+          <td># (hash)</td>
+        </tr>
+        <tr>
+          <td>Purpose</td>
+          <td>Groups elements for styling and JavaScript</td>
+          <td>Identifies a specific element</td>
+        </tr>
+        <tr>
+          <td>Example Use Case</td>
+          <td>Style many items with the same design (e.g., buttons, cards)</td>
+          <td>Target one unique element (e.g., logo, navigation bar)</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>20.What are self closing tags</h1>
+    <h3>Answer</h3>
+    <p>
+      A self-closing tag (also called void tag) is an HTML tag that does not
+      need a closing tag because it doesn’t wrap any content. <br>
+      For Example:- br,hr,img,input,meta,link etc.
+    </p>
+  </body>
+</html>
